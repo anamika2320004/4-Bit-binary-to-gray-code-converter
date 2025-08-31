@@ -3,7 +3,7 @@
 ## 📌 Overview
 This project implements a **4-bit Binary to Gray Code Converter** in **Verilog**.  
 It demonstrates **code conversion, combinational logic, and truth tables**.  
-A testbench is included to verify all input combinations and generate waveforms for **GTKWave**.
+A testbench is included to verify all input combinations and generate waveforms for **EPWave**.
 
 ---
 
@@ -56,7 +56,7 @@ gray[0] = binary[1] ^ binary[0]
 1. Copy the code from `binary_to_gray.v` into [EDA Playground](https://www.edaplayground.com/).  
 2. Select **Icarus Verilog** as simulator.  
 3. Run → View output in console (`Binary -> Gray`).  
-4. Open **GTKWave** to see the waveform (`wave.vcd`).  
+4. Open **EPWave** to see the waveform.  
 
 ---
 
@@ -71,7 +71,7 @@ Binary -> Gray
 ...
 1111 -> 1000
 
-GTKWave waveform shows how **Gray outputs follow Binary inputs**.
+EPWave waveform shows how **Gray outputs follow Binary inputs**.
 
 ---
 
